@@ -19,6 +19,18 @@
             padding: 20px;
             font-size: 24px;
         }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d9a382;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
         .container {
             max-width: 800px;
             margin: 20px auto;
@@ -45,17 +57,30 @@
 </head>
 <body>
     <header>
-        <h1>Quán Bánh BèoNhụy Nguyên</h1>
+        <h1>Quán Bánh Bèo Nhụy Nguyên</h1>
     </header>
-    <div class="container">
-        <img src="image/Banh-Beo.jpeg" alt="Bánh Lọc Nhụy Nguyên" class="image">
+    <nav>
+        <a href="#gioi-thieu">Giới Thiệu</a>
+        <a href="#menu">Thực Đơn</a>
+        <a href="#dat-ban">Đặt Bàn</a>
+        <a href="#lien-he">Liên Hệ</a>
+    </nav>
+    <div class="container" id="gioi-thieu">
+        <img src="image/Banh-Beo.jpeg" alt="Bánh Bèo Nhụy Nguyên" class="image">
         <h2>Giới thiệu về quán</h2>
         <p>Quán Bánh Bèo Nhụy Nguyên mang đến hương vị truyền thống với không gian ấm áp, an toàn và thân thiện. Tại đây, chúng tôi sử dụng nguyên liệu tươi ngon nhất để tạo ra những chiếc bánh lọc đậm đà, thơm ngon.</p>
-        <h2>Không gian quán</h2>
-        <p>Quán được thiết kế với tông màu ấm, tạo cảm giác gần gũi, thân thiện. Không gian sạch sẽ, thoáng đãng, đảm bảo an toàn vệ sinh thực phẩm.</p>
-        <h2>Địa chỉ</h2>
-        <p>Tân Khánh ,Nghĩa Khánh, Nghĩa Đàn, Nghệ An</p>
-        <h2>Liên hệ</h2>
+    </div>
+    <div class="container" id="menu">
+        <h2>Thực Đơn</h2>
+        <p>Chúng tôi phục vụ bánh bèo, bánh lọc, bánh nậm và nhiều món đặc trưng khác.</p>
+    </div>
+    <div class="container" id="dat-ban">
+        <h2>Đặt Bàn</h2>
+        <p>Liên hệ ngay để đặt bàn và tận hưởng không gian ấm cúng.</p>
+    </div>
+    <div class="container" id="lien-he">
+        <h2>Liên Hệ</h2>
+        <p>Địa chỉ: Tân Khánh, Nghĩa Khánh, Nghĩa Đàn, Nghệ An</p>
         <p>Số điện thoại: 0349-969-537</p>
     </div>
     <footer>
